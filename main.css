@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #52493a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #52493a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e8e0ae;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-lanchonete, #cardapio {
+    background-color: #e8e0ae;
+}
+
+.text-colored {
+    color: #52493a;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button  {
+    background-color: #52493a;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #52493a;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height:280px;
+    }
+}
